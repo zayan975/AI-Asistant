@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 const io = new Server(server,{
     cors: {
-           origin: "https://jarvis-ai-assistant-project.netlify.app/login",
+           origin: "http://localhost:5173",
              
     methods: ["GET", "POST"],
     credentials: true
